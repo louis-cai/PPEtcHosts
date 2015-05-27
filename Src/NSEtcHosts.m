@@ -9,8 +9,6 @@
 #import "NSEtcHosts.h"
 #import <objc/runtime.h>
 
-#ifdef DEBUG
-
 static NSDictionary *ipTable;
 static NSMutableArray *requestStorager;
 
@@ -56,5 +54,3 @@ static NSMutableArray *requestStorager;
 }
 
 @end
-
-#endif
