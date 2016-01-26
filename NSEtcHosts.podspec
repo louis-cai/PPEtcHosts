@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSEtcHosts"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "/etc/hosts with NSURLRequest All networking library are compatible."
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "git@github.com:louis-cai/PPEtcHosts.git", :tag => "1.0.1" }
+  s.source       = { :git => "git@github.com:louis-cai/PPEtcHosts.git", :tag => "1.0.2" }
 
   s.source_files  = "Src", "Src/*.{h,m}"
 
